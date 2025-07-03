@@ -8,11 +8,12 @@
       <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
 />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- icon -->
     <link
       rel="icon"
       type="x-icon/image"
-      href="/photo/python-software-outsourcing-model-staff-augmentation-001.png"
+      href="photo/python-software-outsourcing-model-staff-augmentation-001.png"
     />
     <!-- CSS -->
     <link rel="stylesheet" href="port.css" />
@@ -171,7 +172,7 @@
         </div>
         <div class="col-md-6">
           <br /><br /><br />
-          <p style="align-items: center">
+          <p style="align-items: center" >
             Hi, I'm Muhammed Nihal, an aspiring Python Developer with a passion
             for building smart and efficient solutions. I specialize in writing
             clean and well-structured code, with growing experience in both
@@ -453,11 +454,8 @@
           </div>
         </div>
 
-        <form
-          id="contact-form"
-          class="bg-dark p-4 rounded"
-          style="box-shadow: 0 0 10px #007bff"
-        >
+        <form id="contact-form" onsubmit="sendMail(); return false;" class="bg-dark p-4 rounded">
+
           <div class="mb-3">
             <label for="name" class="form-label text-white">Full Name</label>
             <input
@@ -488,7 +486,7 @@
               required
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Send</button>
+          <button type="submit" class=" hrll btn btn-primary">Send</button>
         </form>
       </section>
     </div>
@@ -546,5 +544,15 @@
       crossorigin="anonymous"
     ></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+   <!-- email of my condact -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  emailjs.init("2kj9h414hpiOyE-U5");
+</script>
+<!-- my js file -->
+<script src="java.js"></script>
+
   </body>
 </html>
