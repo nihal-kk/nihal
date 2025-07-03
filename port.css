@@ -90,5 +90,5 @@
 #name:hover,#message:hover,#email:hover{
       transition: transform 0.3s ease, box-shadow 0.3s 
     ease;
-    box-shadow: 0 10px 40px rgb(0, 149, 45);
+    box-shadow: 0 10px 30px rgb(0, 149, 45);
 }
